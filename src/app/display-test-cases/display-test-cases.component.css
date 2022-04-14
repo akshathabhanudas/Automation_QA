@@ -9,8 +9,10 @@
 
 mat-toolbar {
 display: flex;
-text-align: justify;
+text-align: justify
 }
+
+
 .Applications {
  margin-left: -7em;
  margin-bottom:-1.8em;
@@ -20,12 +22,21 @@ font-style: normal;
 font-weight: bold;
 
 }
+h4{
+    font-family: sans-serif;
+    color: maroon;
+    border: 1px solid rgb(200, 200, 200);
+    margin-right: 15em;
+    padding-left: 12px;
+
+    text-shadow: 2px 2px 4px #000000;
+}
 /* ng-multiselect-dropdown {
      border: solid; 
 } */
 #button {
     margin-left: 45em;
-    margin-top: 1em; 
+    margin-top: 10em; 
      background-color: blue;
 }
 
@@ -36,7 +47,9 @@ font-weight: bold;
 span {
     margin: auto;
 }
-
+.title{
+    margin-right: -21em;
+}
 /* .container {
     
 } */
@@ -52,4 +65,18 @@ span {
 margin-left: 30em;
 margin-top:9em;
 
+}
+
+.home{
+    color: rgb(255, 255, 255);
+  padding-right: -28em;
+  /* padding-left: 20em; */
+  /* margin-right: 7em; */
+}
+
+.example-radio-group{
+    display: flex ;flex-direction: column;
+    margin-left: 500px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
